@@ -1,0 +1,141 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: justify;
+}
+
+.comeco {
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+}
+
+.comeco a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.4em;
+}
+
+.comeco a:hover{
+    background-color: blueviolet;
+}
+header{
+    margin-bottom: -3px;
+}
+main{
+    background-color: #b9e9ff;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -3px; 
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px; 
+}
+
+
+article {
+    background-image: url('Imagens/fundo\ main.png');
+}
+article h1{
+    color: blueviolet;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+article p {
+    margin: 0px 30px 10px 30px;
+    padding-bottom: 10px;
+}
+aside{
+    padding: 10px;
+    margin: 10px;
+    
+}
+div{    
+    display: inline-block;
+    background-color: rgb(169, 169, 255);
+    width: 270px;
+    height: 800px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div h2{
+    text-align: center;
+    padding: 10px;
+}
+div p{
+    margin: 5px;
+    padding: 5px;
+}
+aside ul{
+    list-style-position: inside;
+}
+
+ul li{
+    text-indent: 10px;
+}
+
+.apoio{
+    color: blueviolet;
+    text-decoration: none;
+    text-align: left;
+   padding: 100px 0px;
+   margin: 50px 0px;
+   font-size: 1.4em;
+}
+.apoio a {
+    position: relative;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 95px;
+    padding: 30px 0px;
+}
+.apoio .icon-cafe {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+}
+.apoio .icon-agenda {
+    position: absolute;
+    top: 8px;
+    left: 15.5px;
+}
+.apoio .icon-sub {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.apoio .icon-sociais {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+}
+
+footer{
+    font-size: 1.4em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+  
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: blueviolet;
+}
