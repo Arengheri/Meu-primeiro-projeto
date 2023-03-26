@@ -15,22 +15,26 @@ body{
 }
 
 .comeco {
-    height: 25vh;
+   /* height: 25vh;
     margin-bottom: 3px;
     background-image: url('Imagens/capa5.png');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    margin-bottom: 3px;
+    margin-top: 10px;
     text-align: right;
     padding: 10px;
+    background-color: black;
 }
 
 .comeco a {
+    
     color: white;
     text-decoration: none;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 7px;
+    margin: 7px;
     font-size: 1.4em;
     font-family: 'Bebas Neue' , sans-serif;
     transition-duration: 0.5s;
@@ -75,7 +79,8 @@ article h1{
     -webkit-text-fill-color: transparent;
     color: black;
     padding: 10px;
-    font-size: 5em;
+    font-size: 4em;
+    position: relative;
     text-align: center;
 }
 article p {
