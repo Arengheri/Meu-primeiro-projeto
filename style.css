@@ -63,7 +63,11 @@ article {
 }
 article h1{
     font-family: 'Orbitron', sans-serif;
-    color: linear-gradient(to right, #8c00ff, #00c3ff);
+    background-image: linear-gradient(to right, blue, orange, #7601fc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
     padding: 10px;
     font-size: 5em;
     text-align: center;
