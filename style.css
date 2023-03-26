@@ -132,27 +132,38 @@ ul li{
     margin: auto;
     padding: 40px 15px;
     width: 220px;
-    height: 120px;   
+    height: 120px; 
+    
+    border: 2px solid black;
+
+}
+ .apoio a span p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 0.8em;
+    padding: 10px;
+    
 }
 .apoio .icon-cafe {
     position: absolute;
     top: 10px;
-    left: 45%;
+    left: 10px;
 }
 .apoio .icon-agenda {
     position: absolute;
     top: 10px;
-    left: 45%;
+    left: 10px;
 }
 .apoio .icon-sub {
     position: absolute;
     top: 10px;
-    left: 44%;
+    left: 10px;
 }
 .apoio .icon-sociais {
     position: absolute;
     top: 10px;
-    left: 42%;
+    left: 0px;
 }
 
 footer{
