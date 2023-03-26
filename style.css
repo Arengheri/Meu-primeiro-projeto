@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #00c3ff,#8c00ff);
+    background-image: linear-gradient(to bottom, #00c3ff,#6b00c2);
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -63,11 +63,13 @@ main{
 
 
 article {
-    background-image: url('Imagens/fundo\ main.png');
+    background-image: url('Imagens/setup2.jpg');
+   
 }
 article h1{
+    backdrop-filter: blur(10px);
     font-family: 'Orbitron', sans-serif;
-    background-image: linear-gradient(to right, blue, orange, #7601fc);
+    background-image: linear-gradient(to right, blue, #7601fc, red);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -77,9 +79,12 @@ article h1{
     text-align: center;
 }
 article p {
+    backdrop-filter: blur(10px);
     margin: 0px 30px 10px 30px;
     padding-bottom: 10px;
     text-align: justify;
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 aside{
     padding: 10px;
