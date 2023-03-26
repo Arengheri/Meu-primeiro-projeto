@@ -135,6 +135,7 @@ ul li{
     font-size: 1.6em;
     min-width: 300px;
     max-width: 1000px;
+    margin: auto;
     margin: 10px;
 }
 .apoio a {
