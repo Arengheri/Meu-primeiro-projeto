@@ -52,12 +52,12 @@ body{
 }
 .patrocinadores{
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 main{
     background-color: #b9e9ff;
     min-width: 300px;
-    max-width: 1500px;
+    max-width: 1000px;
     margin: auto;
     margin-top: -3px; 
     border-bottom-left-radius:10px;
@@ -134,7 +134,7 @@ ul li{
     padding:120px 40px 70px 120px;
     font-size: 1.6em;
     min-width: 300px;
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 10px;
 }
 .apoio a {
